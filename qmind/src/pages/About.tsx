@@ -146,10 +146,14 @@ const About = () => {
         </div>
       </section>
 
-      <section className="relative py-24 bg-gradient-to-br from-white via-blue-50 to-white overflow-hidden">
+      <section
+        className="relative py-24 bg-fixed bg-center bg-cover bg-no-repeat"
+        style={{ backgroundImage: "url('src/images/ai_mind.jpg')" }}
+      >
+        {/* Основной контент */}
         <div className="container mx-auto px-4 sm:px-6 lg:px-8 relative z-10">
           <div className="max-w-5xl mx-auto text-center">
-            <h2 className="text-4xl font-extrabold text-gray-900 mb-12">
+            <h2 className="text-4xl font-extrabold text-white mb-12">
               Почему наш подход{" "}
               <span className="text-blue-600">действительно работает?</span>
             </h2>
@@ -180,13 +184,10 @@ const About = () => {
             </div>
           </div>
         </div>
-
-        {/* Украшения */}
-        <div className="absolute -top-16 -left-16 w-80 h-80 bg-blue-100 rounded-full blur-3xl opacity-20" />
-        <div className="absolute bottom-0 right-0 w-72 h-72 bg-cyan-100 rounded-full blur-2xl opacity-20" />
+        {/* Декоративные круги */}
+        <div className="absolute -top-16 -left-16 w-80 h-80 bg-blue-100 rounded-full blur-3xl opacity-20 z-0" />
+        <div className="absolute bottom-0 right-0 w-72 h-72 bg-cyan-100 rounded-full blur-2xl opacity-20 z-0" />
       </section>
-
-      {/* Удалён дублирующийся тяжёлый блок с фоном и повторяющимся текстом */}
 
       {/* FAQ Section Updated */}
       <section className="py-24 bg-gradient-to-b from-white via-blue-50 to-white">
