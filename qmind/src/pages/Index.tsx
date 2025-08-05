@@ -76,7 +76,14 @@ const Index = () => {
           </span> */}
         </div>
       </section>
-
+ <section
+        className="relative px-12 py-24 bg-fixed bg-center bg-contain bg-no-repeat opacity-50"
+        style={{ backgroundImage: "url('src/images/qmind_back1.png')" }}
+      >
+        {/* Декоративные круги */}
+        <div className="absolute -top-16 -left-16 w-80 h-80 bg-blue-100 rounded-full blur-3xl opacity-20 z-0" />
+        <div className="absolute bottom-0 right-0 w-72 h-72 bg-cyan-100 rounded-full blur-2xl opacity-20 z-0" />
+      </section>
       <section className="py-20 bg-gradient-to-b from-white via-gray-50 to-white">
         <div className="container mx-auto px-4 sm:px-6 lg:px-8">
           <div className="text-left mb-16">
@@ -166,6 +173,16 @@ const Index = () => {
         </div>
       </section>
 
+
+ <section
+        className="relative px-12 py-24 bg-fixed bg-center bg-contain bg-no-repeat opacity-50"
+        style={{ backgroundImage: "url('src/images/qmind_back1.png')" }}
+      >
+        {/* Декоративные круги */}
+        <div className="absolute -top-16 -left-16 w-80 h-80 bg-blue-100 rounded-full blur-3xl opacity-20 z-0" />
+        <div className="absolute bottom-0 right-0 w-72 h-72 bg-cyan-100 rounded-full blur-2xl opacity-20 z-0" />
+      </section>
+      
       {/* Problem Section */}
       <section className="py-20 bg-gradient-to-br from-red-50 to-white">
         <div className="container mx-auto px-4 sm:px-6 lg:px-8">
@@ -216,7 +233,14 @@ const Index = () => {
       </section>
 
       {/* Solution Section */}
-
+ <section
+        className="relative px-12 py-24 bg-fixed bg-center bg-contain bg-no-repeat opacity-50"
+        style={{ backgroundImage: "url('src/images/qmind_back1.png')" }}
+      >
+        {/* Декоративные круги */}
+        <div className="absolute -top-16 -left-16 w-80 h-80 bg-blue-100 rounded-full blur-3xl opacity-20 z-0" />
+        <div className="absolute bottom-0 right-0 w-72 h-72 bg-cyan-100 rounded-full blur-2xl opacity-20 z-0" />
+      </section>
       <section className="relative py-24 bg-gradient-to-br from-white via-blue-50 to-white overflow-hidden">
         <div className="container mx-auto px-4 sm:px-6 lg:px-8 relative z-10">
           <div className="grid md:grid-cols-2 items-center gap-12">
@@ -269,7 +293,14 @@ const Index = () => {
         <div className="absolute left-[-100px] top-[200px] w-96 h-96 bg-pink-100 opacity-20 rounded-full blur-3xl" />
         <div className="absolute right-[-80px] bottom-[-50px] w-80 h-80 bg-blue-200 opacity-20 rounded-full blur-2xl" />
       </section>
-
+ <section
+        className="relative px-12 py-24 bg-fixed bg-center bg-contain bg-no-repeat opacity-50"
+        style={{ backgroundImage: "url('src/images/qmind_back1.png')" }}
+      >
+        {/* Декоративные круги */}
+        <div className="absolute -top-16 -left-16 w-80 h-80 bg-blue-100 rounded-full blur-3xl opacity-20 z-0" />
+        <div className="absolute bottom-0 right-0 w-72 h-72 bg-cyan-100 rounded-full blur-2xl opacity-20 z-0" />
+      </section>
       {/* Process Section */}
 
       <section className="relative py-24 bg-gradient-to-br from-white via-gray-50 to-white overflow-hidden">
@@ -343,7 +374,14 @@ const Index = () => {
           </div>
         </div>
       </section>
-
+ <section
+        className="relative px-12 py-24 bg-fixed bg-center bg-contain bg-no-repeat opacity-50"
+        style={{ backgroundImage: "url('src/images/qmind_back1.png')" }}
+      >
+        {/* Декоративные круги */}
+        <div className="absolute -top-16 -left-16 w-80 h-80 bg-blue-100 rounded-full blur-3xl opacity-20 z-0" />
+        <div className="absolute bottom-0 right-0 w-72 h-72 bg-cyan-100 rounded-full blur-2xl opacity-20 z-0" />
+      </section>
       {/* import { ArrowRight, ShieldCheck } from "lucide-react"; */}
 
       <section className="relative py-24 bg-gradient-to-b from-indigo-50 via-white to-purple-50 overflow-hidden">
